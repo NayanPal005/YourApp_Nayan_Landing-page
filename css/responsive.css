@@ -1,0 +1,113 @@
+/*-------------------------------------------------------------------------
+    
+    Theme Name: SYNOAPP: One Page Minimal Bootstrap HTML5 Template
+    Auther: SynchroTheme
+    Author URI: http://synchrotheme.com
+    Version: 1.0
+
+  -------------------------------------------------------------------------*/
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.header-text{
+		padding: 20px;
+	}
+	.header-text h2{
+		font-size: 30px;
+	}
+	.header-text ul li{
+		font-size: 14px;
+	}
+	.pricing-table{
+    	margin-top: 15px;
+    } 
+    .store-button a img {
+	    padding: 5px;
+	    width: 150px;
+	}
+	.gallery .owl-item img{
+		height: 420px;
+	}
+    .pricing-table.best{
+	    -webkit-transform: scale(1);
+	    -moz-transform: scale(1);
+	    -o-transform: scale(1);
+	    -ms-transform: scale(1);
+	    transform: scale(1);
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.mainnav{
+		background: #fff;
+	}
+	.mainnav .navbar-brand{
+		color: #242424;
+	}
+	.mainnav .navbar-nav>li>a {
+	    color: #242424;
+	    font-size: 1.8rem;
+	}
+	.feature-text{
+		padding-right: 15px;
+	}
+ 	.video-area{
+ 		padding: 100px 0px;
+ 	}
+    .pricing-table{
+    	margin-top: 15px;
+    }
+    .pricing-table.best{
+	    -webkit-transform: scale(1);
+	    -moz-transform: scale(1);
+	    -o-transform: scale(1);
+	    -ms-transform: scale(1);
+	    transform: scale(1);
+	}
+	.video-text h2{
+		font-size: 20px;
+		margin: 15px 0px 0px;
+	}
+	.single-team .team-photo{
+		margin-bottom: 20px;
+	}
+	.single-feature:hover{
+	    transform: scale(1);
+	    -webkit-transform: scale(1);
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.header-text h2{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.header-text{
+		padding: 10px;
+	}
+	.header-text h2{
+		font-size: 19px;
+	}
+	.header-text ul li{
+		font-size: 14px;
+	}
+	.store-button a img{
+		padding: 1px;
+		width: 130px;
+	}
+	.feature-text:before{
+		display: none;
+	}	
+	.feature-text:after{
+		display: none;
+	}
+	.gallery-area h2{
+		font-size: 2em;
+	}
+}
